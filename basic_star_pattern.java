@@ -12,5 +12,6 @@ public class basic_star_pattern {
             }
             System.out.println();
         }
+        System.out.println("NOW THIS ONE IS GOOD!!");
     }
 }
