@@ -5,6 +5,6 @@ public class basic_star_pattern {
         System.out.println("***");
         System.out.println("****");
         System.out.println("*****");
-        //System.out.println("OK !! THIS IS ONLY FOR FUN");
+        System.out.println("OK !! THIS IS ONLY FOR FUN");
     }
 }
