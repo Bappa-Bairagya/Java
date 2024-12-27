@@ -7,7 +7,7 @@ public class check_prime {
                 count++;
             }
         }
-        System.out.println(count);
+        //System.out.println(count);
         if (count==1) {
             System.out.println("this numbeer is prime");
         }
