@@ -13,6 +13,7 @@ public class prime_upto10 {
         }
     }
     public static void main(String[] args) {
+        System.out.println("Here i print upto 10 prime number");
         int n=10;
         for(int i=1;i<=n;i++){
             check(i);
