@@ -2,6 +2,7 @@ public class fibonacci {
     static void operation(int n){
         int f1=0;
         int f2=1;
+        System.out.println(f1);
         for(int i=1;i<=n;i++){
             int f3=f1+f2;
             System.out.println(f3);
