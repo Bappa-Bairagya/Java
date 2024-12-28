@@ -12,6 +12,6 @@ public class fibonacci {
         }
     }
     public static void main(String[] args) {
-        operation(5);
+        operation(10);
     }
 }
