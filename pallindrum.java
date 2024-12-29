@@ -16,7 +16,7 @@ public class pallindrum {
     }
     public static void main(String[] args) {
         new pallindrum().operation(151);
-        //System.out.println("hiiiiiiiiiiiii");
+        
         
     }
 }
