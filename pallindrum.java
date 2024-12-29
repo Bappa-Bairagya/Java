@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class pallindrum {
    void operation(int n){
         int rev=0;
@@ -15,7 +17,10 @@ public class pallindrum {
         System.out.println("not");
     }
     public static void main(String[] args) {
-        new pallindrum().operation(151);
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter a number");
+        int n=sc.nextInt();
+        new pallindrum().operation(n);
         
         
     }
