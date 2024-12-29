@@ -1,5 +1,5 @@
 public class pallindrum {
-   static void operation(int n){
+   void operation(int n){
         int rev=0;
         int temp=n;
         while (n!=0) {
@@ -15,7 +15,7 @@ public class pallindrum {
         System.out.println("not");
     }
     public static void main(String[] args) {
-        operation(151);
+        new pallindrum().operation(151);
         //System.out.println("hiiiiiiiiiiiii");
         
     }
