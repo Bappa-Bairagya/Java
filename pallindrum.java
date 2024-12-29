@@ -7,7 +7,7 @@ public class pallindrum {
             rev=(rev*10)+rem;
             n=n/10;
         }
-        //System.out.println(n);
+        
         if (temp==rev) {
             System.out.println("this number is palindram");
         }
