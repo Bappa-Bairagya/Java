@@ -8,5 +8,8 @@ public class array_all {
         a[4]=10;
         System.out.println(a[4]);
         System.out.println("this is 1d array");
+        for(int i=0;i<a.length;i++){
+            System.out.println("the array is "+a[i]);
+        }
     }
 }
