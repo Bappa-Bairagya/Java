@@ -19,6 +19,8 @@ public class array_all {
             }
             System.out.println();
         }
-        
+        int [][][]c={{{4,5,6},{7,8,9}},{{1,2,3},{10,25,36}}};
+        System.out.println("this 3d array");
+        System.out.println(c[0][1][2]);
     }
 }
