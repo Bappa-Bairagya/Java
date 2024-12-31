@@ -5,5 +5,10 @@ public class implicit_explicit {
         long l=n;
         float f=l;
         System.out.println(f);
+        System.out.println("here it's explicit");
+        double d=50.0d;
+        float c=(float)d;
+        long h=(long)c;
+        System.out.println(h);
     }
 }
