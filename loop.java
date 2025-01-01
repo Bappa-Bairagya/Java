@@ -16,5 +16,11 @@ public class loop {
             i++;
         }
         while(i==0);
+        //for each loop
+        String [] cars={"bmw","maybach","tata"};
+        for (String s : cars) {
+            System.out.println(s);
+            
+        }
     }
 }
