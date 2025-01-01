@@ -17,6 +17,6 @@ public class check_prime {
     }
     public static void main(String[] args) {
         System.out.println("normal pogram for checking prime number");
-        check(5);
+        check(7);
     }
 }
