@@ -32,5 +32,15 @@ public class loop {
         else{
             System.out.println("i think wrong input");
         }
+        //swich case
+        switch (j) {
+            case 1:
+                System.out.println("just 1");
+                break;
+        
+            default:
+                System.out.println("great");
+                break;
+        }
     }
 }
