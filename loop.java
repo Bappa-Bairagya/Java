@@ -22,5 +22,15 @@ public class loop {
             System.out.println(s);
             
         }
+        int j=24;
+        if (j>=30) {
+            System.out.println("Oh my got you just crosed 30");
+        }
+        else if (j<=30) {
+            System.out.println("Oh you below 30");
+        }
+        else{
+            System.out.println("i think wrong input");
+        }
     }
 }
