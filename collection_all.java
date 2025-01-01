@@ -9,5 +9,9 @@ public class collection_all {
         System.out.println(arraylist);
         arraylist.remove(3);
         System.out.println(arraylist);
+        for(int i=0;i<arraylist.size();i++){
+            System.out.println(arraylist.get(i));
+        }
+        
     }
 }
