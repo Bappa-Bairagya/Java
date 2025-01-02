@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class collection_all {
@@ -72,5 +73,11 @@ public class collection_all {
         // for (Entry<Integer,String> e : map.entrySet()) {
         //     //System.out.println("key="+e.getkey());
         // }
+        //treemap
+        TreeMap<Integer, String> tr = new TreeMap<Integer, String>();
+        tr.put(1, "a");
+        tr.put(3, "h");
+        tr.put(2, "c");
+        System.out.println(tr);
     }
 }
