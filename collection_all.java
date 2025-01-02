@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 
 public class collection_all {
@@ -27,7 +28,23 @@ public class collection_all {
         list.addLast("Z");
         list.add(5, "M");
         list.add("n");
+        System.out.println(list.poll());
+        System.out.println(list.peek());
         System.out.println(list);
+        //hashset
+        HashSet<String> h = new HashSet<String>();
+        h.add("X");
+        h.add("Y");
+        h.add("Z");
+        h.add("O");
+        h.add("P");
+        h.add("A");
+        //h.add("Y");-> duplicate not allow
+        System.out.println(h);
+        System.out.println(h.contains("X"));
+        for (String string : h) {
+            System.out.println(string);
+        }
         
     }
 }
