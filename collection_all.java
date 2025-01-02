@@ -1,4 +1,7 @@
+import java.security.Key;
+import java.security.KeyStore.Entry;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.TreeSet;
@@ -53,5 +56,21 @@ public class collection_all {
         t.add("B");
         t.add("X");
         System.out.println(t.contains("A"));
+        //hashmap
+        HashMap<Integer,String> map = new HashMap<>();
+        map.put(1, "Bappa");
+        map.put(2, "Amal");
+        map.put(3, "Tuhin");
+        System.out.println(map);
+        System.out.println(map.size());
+        if (map.containsKey(1)) {
+            System.out.println("the value is "+map.get(1));
+        }
+        // for (Integer k : map.keySet()) {
+        //     System.out.println(map.get(k));
+        // }
+        // for (Entry<Integer,String> e : map.entrySet()) {
+        //     //System.out.println("key="+e.getkey());
+        // }
     }
 }
