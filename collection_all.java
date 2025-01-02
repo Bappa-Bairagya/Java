@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.TreeSet;
 
 public class collection_all {
     public static void main(String[] args) {
@@ -45,6 +46,12 @@ public class collection_all {
         for (String string : h) {
             System.out.println(string);
         }
-        
+        //treeset
+        TreeSet<String> t = new TreeSet<String>();
+        t.add("A");
+        t.add("C");
+        t.add("B");
+        t.add("X");
+        System.out.println(t.contains("A"));
     }
 }
