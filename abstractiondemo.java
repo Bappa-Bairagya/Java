@@ -1,5 +1,8 @@
 abstract class value {
     int i=5;
+    value(){
+        System.out.println("construtor");
+    }
     abstract void call();
     abstract void take();
 }
