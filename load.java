@@ -1,5 +1,5 @@
 public class load {
-    //method over loading
+    //method overloading
     static void call(){
         System.out.println("call 1");
     }
