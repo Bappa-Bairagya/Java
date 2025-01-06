@@ -4,7 +4,7 @@ public class load {
         System.out.println("call 1");
     }
     static void call(int a){
-        System.out.println("call 2");
+        System.out.println("call 2"+a);
     }
     static void call (int a,float b){
         System.out.println("call 3");
