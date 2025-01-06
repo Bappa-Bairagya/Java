@@ -12,7 +12,7 @@ class calulate{
 public class factorial_recurson {
     public static void main(String[] args) {
         calulate cal=new calulate();
-        int result=cal.fact(10);
+        int result=cal.fact(9);
         System.out.println("Factorial is= "+result);
     }
 }
