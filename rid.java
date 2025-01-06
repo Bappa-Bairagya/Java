@@ -12,6 +12,7 @@ class bhalo extends ar{
 public class rid {
 
     public static void main(String[] args) {
+        //method overriding
         bhalo b=new bhalo();
         b.sound();
     }
