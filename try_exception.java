@@ -1,5 +1,6 @@
 public class try_exception {
     public static void main(String[] args) {
+        //exception handling
         int []a={5,4,6,2};
         try {
             System.out.println(a[4]);
