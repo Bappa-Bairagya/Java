@@ -12,6 +12,6 @@ public class load {
     public static void main(String[] args) {
         call();
         call(5);
-        call(4, 0.1f);
+        call(6, 0.1f);
     }
 }
