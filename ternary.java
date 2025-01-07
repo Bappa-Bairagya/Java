@@ -1,7 +1,7 @@
 public class ternary {
     public static void main(String[] args) {
-        int n=10;
-        String b=(n==0)?"good":"bad";
+        int n=21;
+        String b=(n>18)?"you can vote":"you are kid";
         System.out.println(b);
     }
 }
