@@ -19,7 +19,7 @@ public class encapsul {
     public static void main(String[] args) {
         demo d=new demo();
         d.setage(18);
-        d.setname("munku");
+        d.setname("pritam");
         System.out.println(d.getage());
         System.out.println(d.getname());
     }
