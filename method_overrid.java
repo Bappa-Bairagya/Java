@@ -1,6 +1,6 @@
 class a{
     void show(){
-        System.out.println("in a ");
+        System.out.println("in a show");
     }
 }
 public class method_overrid {
