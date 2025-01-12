@@ -12,6 +12,6 @@ public class method_overrid {
 
     public static void main(String[] args) {
        b a=new b(); 
-       b.show();
+       a.show();
     }
 }
