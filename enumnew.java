@@ -4,7 +4,7 @@ enum color{
     green,
     black
 }
-
+// in using enum we does menstion any datatype name
 public class enumnew {
     public static void main(String[] args) {
         color c1=color.red;
