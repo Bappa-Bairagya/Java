@@ -1,7 +1,8 @@
 enum color{
     red,
     blue,
-    green
+    green,
+    black
 }
 
 public class enumnew {
