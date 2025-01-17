@@ -1,5 +1,5 @@
 abstract class value {
-    int i=60;
+    int i=6;
     value(){
         System.out.println("construtor");
     }
