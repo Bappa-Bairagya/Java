@@ -6,7 +6,7 @@ class a{
 class b extends a{
     @Override
     void show(){
-        System.out.println("in b");
+        System.out.println("this is from b");
     }
 }
 public class anotation {
