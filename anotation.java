@@ -4,7 +4,7 @@ class a{
     }
 }
 class b extends a{
-    @Override
+    @Override //anotation
     void show(){
         System.out.println("this is from b");
     }
