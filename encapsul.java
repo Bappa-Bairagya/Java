@@ -17,10 +17,10 @@ class demo{
 
 public class encapsul {
     public static void main(String[] args) {
-        demo d=new demo();
-        d.setage(19);
-        d.setname("pritam");
-        System.out.println(d.getage());
-        System.out.println(d.getname());
+        demo l=new demo();
+        l.setage(19);
+        l.setname("pritam");
+        System.out.println(l.getage());
+        System.out.println(l.getname());
     }
 }
