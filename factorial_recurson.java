@@ -4,7 +4,7 @@ class calulate{
             return n;
         }
         else{
-            return(n*fact(n-1));
+            return(n*fact(n-1));//5*4*3*2*1
         }
     }
 }
