@@ -9,6 +9,7 @@ public class implicit_explicit {
         double d=50.0d;
         float c=(float)d;
         long h=(long)c;
-        System.out.println(h);
+        int i=(int)h;
+        System.out.println(i);
     }
 }
