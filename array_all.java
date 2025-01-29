@@ -1,6 +1,7 @@
 public class array_all {
     public static void main(String[] args) {
         int []a=new int[5];
+        int []v={1,2,3,4,5};
         a[0]=5;
         a[1]=6;
         a[2]=4;
